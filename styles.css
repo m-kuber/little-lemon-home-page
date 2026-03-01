@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+}
+
+header {
+    flex: 0 1 auto;
+    align-self: center;
+    padding: 5px;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+
+header > img {
+    height: 7.5vh;
+    width: auto;
+}
+
+nav {
+    flex: 0 1 auto;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightyellow;
+    padding: 0.25em;
+    font-size: 1.25em;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+#blog-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5em;
+    margin: 5em;
+    padding: 1em;
+}
+
+footer {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    gap: 10vw;
+    flex: 0 1 auto;
+    background-color: lightsteelblue;
+    padding: 2vh;
+}
+
+#footer-image {
+    height: 9.5vh;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.75em;
+    border-radius: 0.5em;
+}
+
+li:hover {
+    background-color: palegoldenrod;
+}
+
+div > p {
+    text-align: center;
+}
+
+#copyright {
+    padding-top: 1.5vh;
+    margin-bottom: 0;
+}
+
+article {
+    padding: 2%;
+    border: 1vh solid maroon;
+    border-radius: 5%;
+}
+
+h2 {
+    text-align: center;
+}
+
+article > p {
+    text-align: justify;
+}
