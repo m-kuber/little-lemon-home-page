@@ -31,6 +31,7 @@ nav > ul {
     justify-content: space-evenly;
     background-color: lightyellow;
     padding: 0.25em;
+    margin: 1vh 1vw;
     font-size: 1.25em;
     font-weight: bold;
     border-radius: 1em;
@@ -38,6 +39,8 @@ nav > ul {
 
 main {
     flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 #blog-container {
@@ -98,4 +101,10 @@ h2 {
 
 article > p {
     text-align: justify;
+}
+
+#promotion {
+    margin: 1vh 1vw;
+    border: 0.25vw solid black;
+    border-radius: 5%;
 }
