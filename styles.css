@@ -74,10 +74,12 @@ li {
     list-style-type: none;
     padding: 0.75em;
     border-radius: 0.5em;
+    transition: transform 0.3s ease;
 }
 
 li:hover {
-    background-color: palegoldenrod;
+    background-color: bisque;
+    transform: scale(1.05);
 }
 
 div > p {
@@ -97,6 +99,12 @@ article {
     flex-direction: column;
     justify-content: center;
     gap: 0.5vh;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
